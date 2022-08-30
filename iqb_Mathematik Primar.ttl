@@ -1,0 +1,684 @@
+@base <https://w3id.org/iqb/bista22map/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<ab/39d95625-6880-4f68-b5c0-18229bfc8444/> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "Zusammenhänge herstellen. Erkennen mathematischer Zusammenhänge und Verknüpfen von Kenntnissen, Fertigkeiten und Fähigkeiten bei der Bearbeitung mathematischer Aufgabenstellungen"@de ;
+    skos:inScheme <> ;
+    skos:notation "2" ;
+    skos:prefLabel "Anforderungsbereich II"@de .
+
+<ab/4329839e-8aa2-4bc3-883d-6f0006adb75b/> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "Reproduzieren. Wiedergabe von Grundwissen, Ausführen von Routinetätigkeiten und direkte Anwendung von grundlegenden Begriffen und Verfahren"@de ;
+    skos:inScheme <> ;
+    skos:notation "1" ;
+    skos:prefLabel "Anforderungsbereich I"@de .
+
+<ab/4b87bee4-3bf2-44b0-9ffb-b50a393a71b7/> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "Verallgemeinern und Reflektieren. Übertragen von Erkenntnissen auf unbekannte Fragestellungen sowie Entwickeln und Reflektieren von Strategien, Begründungen und Folgerungen"@de ;
+    skos:inScheme <> ;
+    skos:notation "3" ;
+    skos:prefLabel "Anforderungsbereich III"@de .
+
+<stdInhalt/04ded081-5aac-4cf3-933e-ef185f0888ea/> a skos:Concept ;
+    skos:broader <stdInhalt/32377fd5-bd80-4b43-9314-df07b8eec3df/> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.2" ;
+    skos:prefLabel "rechnen in Sachsituationen angemessen mit Näherungswerten und prüfen Ergebnisse auf Plausibilität,"@de .
+
+<stdInhalt/0afc5d06-d900-4282-a6c0-00881a6df3ca/> a skos:Concept ;
+    skos:broader <stdInhalt/ca09c5a2-9539-4264-b9f8-ecd7f1c7fb86/> ;
+    skos:inScheme <> ;
+    skos:notation "1.1.3" ;
+    skos:prefLabel "orientieren sich im Zahlenraum bis 1 000 000 (z. B. Zahlen der Größe nach ordnen, Nachbarzahlen bestimmen)."@de .
+
+<stdInhalt/0f356e3a-b820-40e0-a085-4cc8c57ec6de/> a skos:Concept ;
+    skos:broader <stdInhalt/5f008894-e92c-488f-a12e-8d93aa6798f2/> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.1" ;
+    skos:prefLabel "verstehen und nutzen Strukturen in arithmetischen und geometrischen Darstellungen (z. B. in Zahldarstellungen, Anschauungsmitteln) verstehen und nutzen"@de .
+
+<stdInhalt/186e527d-019e-4ea5-b4e0-79c513f8fb69/> a skos:Concept ;
+    skos:broader <stdInhalt/4b8c3eeb-2d7c-4004-96ab-1a129d1f1202/> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.2" ;
+    skos:prefLabel "messen Längen, Zeitspannen, Massen und Hohlmaße mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht,"@de .
+
+<stdInhalt/18b1bc56-c458-459b-bc46-d87317a02209/> a skos:Concept ;
+    skos:broader <stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.2" ;
+    skos:prefLabel "kennen Standardeinheiten (zu Geldwerten, Längen, Zeitspannen, Hohlmaßen und zur Masse) und setzen diese im jeweiligen Größenbereich zueinander in Beziehung,"@de .
+
+<stdInhalt/1b0445bf-881a-4acb-9ab6-6c2ab156423e/> a skos:Concept ;
+    skos:broader <stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.3" ;
+    skos:prefLabel "entwickeln und nutzen Vorstellungen über Repräsentanten für Standardeinheiten und im Alltag bedeutsame Größen (z. B. Höhe der Tür, Dauer der Schulstunde),"@de .
+
+<stdInhalt/21356eee-3ea7-453b-b3f9-58ad5450ba7a/> a skos:Concept ;
+    skos:broader <stdInhalt/ca09c5a2-9539-4264-b9f8-ecd7f1c7fb86/> ;
+    skos:inScheme <> ;
+    skos:notation "1.1.2" ;
+    skos:prefLabel "stellen Zahlen bis 1 000 000 auf verschiedene Weise dar (z. B. Anschauungsmittel, Stufenschrift, Stellenwerttabelle, Zifferndarstellung) und setzen diese zueinander in Beziehung,"@de .
+
+<stdInhalt/23cf83cd-8519-40f8-aa82-4a5dbf6f6052/> a skos:Concept ;
+    skos:broader <stdInhalt/32377fd5-bd80-4b43-9314-df07b8eec3df/> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.1" ;
+    skos:prefLabel "schätzen Größen sachadäquat und mit Bezug zu geeigneten Repräsentanten,"@de .
+
+<stdInhalt/32808a94-f762-42bc-96d9-c408e8e29b6b/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.2" ;
+    skos:prefLabel "beherrschen die Grundaufgaben des Kopfrechnens (u. a. Zahlzerlegungen, Eins-pluseins, Einmaleins) gedächtnismäßig und leiten deren Umkehrungen sicher ab,"@de .
+
+<stdInhalt/3554aca8-a885-4643-8a27-cce81872ad71/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.4" ;
+    skos:prefLabel "verstehen mündliche und halbschriftliche Rechenstrategien zu den vier Grundrechenarten und setzen diese flexibel ein,"@de .
+
+<stdInhalt/357d2290-acce-4d9c-9f4d-b79475a2bd15/> a skos:Concept ;
+    skos:broader <stdInhalt/fa20b358-ece9-40da-8148-923a3c2f03b7/> ;
+    skos:inScheme <> ;
+    skos:notation "1.3.1" ;
+    skos:prefLabel "wenden bei Sachaufgaben Rechenoperationen an und beschreiben die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten,"@de .
+
+<stdInhalt/39831c5a-b082-411a-8628-27f06b46795a/> a skos:Concept ;
+    skos:broader <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.1" ;
+    skos:prefLabel "klassifizieren Körper und ebene Figuren nach Eigenschaften, ordnen Fachbegriffe zu und beschreiben Beziehungen zwischen geometrischen Figuren (z. B. Quadrat und Rechteck),"@de .
+
+<stdInhalt/41e8f5b7-cc8d-4dc2-a680-6d123f5c8f0d/> a skos:Concept ;
+    skos:broader <stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> ;
+    skos:inScheme <> ;
+    skos:notation "5.1.1" ;
+    skos:prefLabel "planen  einfache Befragungen und erfassen und strukturieren bei Beobachtungen, Untersuchungen und einfachen Experimenten Daten,"@de .
+
+<stdInhalt/4f3be106-8c35-4f31-b40e-4ab298454aca/> a skos:Concept ;
+    skos:broader <stdInhalt/4b8c3eeb-2d7c-4004-96ab-1a129d1f1202/> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.3" ;
+    skos:prefLabel "benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km | 2500 m | 2 km 500 m) dar."@de .
+
+<stdInhalt/5196ffc1-f44c-43d4-85d0-fa0d82da0cab/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.8" ;
+    skos:prefLabel "kontrollieren Lösungen durch geeignete Vorgehensweisen (z. B. Überschlagsrechnung, Umkehroperation)."@de .
+
+<stdInhalt/51f74f63-156e-4432-869d-19433fd2cfbc/> a skos:Concept ;
+    skos:broader <stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> ;
+    skos:inScheme <> ;
+    skos:notation "5.1.2" ;
+    skos:prefLabel "stellen Daten in Tabellen, Schaubildern und Diagrammen dar, auch unter Nutzung digitaler Werkzeuge, und entnehmen Informationen aus Tabellen, Schaubildern und Diagrammen,"@de .
+
+<stdInhalt/58a48246-b4ed-44e6-8799-076297ae4898/> a skos:Concept ;
+    skos:broader <stdInhalt/09bccf59-5b35-4976-adf8-37827ba1b0c2/> ;
+    skos:inScheme <> ;
+    skos:notation "4.3.3" ;
+    skos:prefLabel "erkennen und beschreiben geometrische Abbildungen in der Umwelt oder in Mustern (z. B. in Bandornamenten)."@de .
+
+<stdInhalt/606f1cde-049b-41da-8cac-d7af18133c8f/> a skos:Concept ;
+    skos:broader <stdInhalt/044c241b-9fb7-410b-ac2c-f77ee478ac96/> ;
+    skos:inScheme <> ;
+    skos:notation "5.2.1" ;
+    skos:prefLabel "kennen und nutzen Grundbegriffe zur Beschreibung von Zufallsereignissen (sicher, möglich, unmöglich),"@de .
+
+<stdInhalt/609b3c77-c7f7-44bb-ad78-e5890d6b67ed/> a skos:Concept ;
+    skos:broader <stdInhalt/09bccf59-5b35-4976-adf8-37827ba1b0c2/> ;
+    skos:inScheme <> ;
+    skos:notation "4.3.1" ;
+    skos:prefLabel "bilden ebene Figuren geometrisch ab (verkleinern, vergrößern und spiegeln),"@de .
+
+<stdInhalt/765b372c-d976-4f26-9951-a4e588be8686/> a skos:Concept ;
+    skos:broader <stdInhalt/36b7bc3f-226a-423b-8b6c-1c80013d6263/> ;
+    skos:inScheme <> ;
+    skos:notation "4.1.3" ;
+    skos:prefLabel "operieren (z. B. zerlegen, falten, drehen, spiegeln, bauen) mit geometrischen Objekten gedanklich."@de .
+
+<stdInhalt/79aa2ee7-2e69-48da-9e87-82e0bd804d66/> a skos:Concept ;
+    skos:broader <stdInhalt/ca09c5a2-9539-4264-b9f8-ecd7f1c7fb86/> ;
+    skos:inScheme <> ;
+    skos:notation "1.1.1" ;
+    skos:prefLabel "erkennen, erklären und nutzen den Aufbau des dezimalen Stellenwertsystems (z. B. Bündelungsprinzip, Stellenwertprinzip),"@de .
+
+<stdInhalt/7a6b99f2-4f3a-4e8a-9388-39ea3aebb443/> a skos:Concept ;
+    skos:broader <stdInhalt/36b7bc3f-226a-423b-8b6c-1c80013d6263/> ;
+    skos:inScheme <> ;
+    skos:notation "4.1.2" ;
+    skos:prefLabel "erkennen, beschreiben und nutzen (z. B. zwei- und dreidimensionale Darstellungen zueinander in Beziehung setzen, wie Bauplan und Bauwerk, Körper und Netz) räumliche Beziehungen,"@de .
+
+<stdInhalt/7f004b17-0ff3-4c9e-a283-0e5b3ad29023/> a skos:Concept ;
+    skos:broader <stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.4" ;
+    skos:prefLabel "kennen und verstehen im Alltag gebräuchliche einfache Brüche im Zusammenhang mit Größen (z. B. 1/2 m, Dreiviertelstunde, 1/4 l)."@de .
+
+<stdInhalt/83687d3c-e424-40da-a118-992609481f23/> a skos:Concept ;
+    skos:broader <stdInhalt/fa20b358-ece9-40da-8148-923a3c2f03b7/> ;
+    skos:inScheme <> ;
+    skos:notation "1.3.2" ;
+    skos:prefLabel "runden und überschlagen sachadäquat."@de .
+
+<stdInhalt/83fdd772-04dc-4b33-9ef7-cb743db22af7/> a skos:Concept ;
+    skos:broader <stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.1" ;
+    skos:prefLabel "vergleichen und ordnen Größen (Geldwerte, Längen, Zeitspannen, Massen, Flächeninhalte und Volumina),"@de .
+
+<stdInhalt/896c264a-eb23-4176-ad94-e5559f94da11/> a skos:Concept ;
+    skos:broader <stdInhalt/32377fd5-bd80-4b43-9314-df07b8eec3df/> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.3" ;
+    skos:prefLabel "lösen Sachaufgaben mit Größen."@de .
+
+<stdInhalt/8ba76fdc-89dc-485a-b621-a426224c5f5f/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.6" ;
+    skos:prefLabel "erkennen, erklären und nutzen Rechengesetze (z. B. Kommutativgesetz: Tauschaufgaben), "@de .
+
+<stdInhalt/972a4b71-9ff5-42a3-92a4-aa047ce0406d/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.7" ;
+    skos:prefLabel "verstehen schriftliche Verfahren der Addition, Subtraktion und Multiplikation, beschreiben den Algorithmus, führen diesen geläufig aus und wenden ihn bei geeigneten Aufgaben an,"@de .
+
+<stdInhalt/983b335e-abf5-4567-b781-76ba39ee9059/> a skos:Concept ;
+    skos:broader <stdInhalt/5f008894-e92c-488f-a12e-8d93aa6798f2/> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.3" ;
+    skos:prefLabel "erkennen, stellen Gleichheit von mathematischen Ausdrücken dar und nutzen diese (z. B. Zahlen durch verschiedene Terme ausdrücken, Terme vergleichen)."@de .
+
+<stdInhalt/9b0d7808-4ccb-493e-8509-9f8e0fab82ab/> a skos:Concept ;
+    skos:broader <stdInhalt/39b7229b-29af-4813-bc02-e4a40c8943ea/> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.2" ;
+    skos:prefLabel "erkennen, beschreiben und stellen funktionale Beziehungen in Tabellen dar,"@de .
+
+<stdInhalt/a5ae837e-246f-4012-b5b8-5cb0f47f0bae/> a skos:Concept ;
+    skos:broader <stdInhalt/39b7229b-29af-4813-bc02-e4a40c8943ea/> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.1" ;
+    skos:prefLabel "erkennen und beschreiben funktionale Beziehungen in Sachsituationen (z. B. Menge - Preis), "@de .
+
+<stdInhalt/ab55f51d-2394-43d8-b119-bf779abbcd8e/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.5" ;
+    skos:prefLabel "beschreiben, vergleichen und bewerten verschiedene Rechenwege; finden, erklären und berichtigen Rechenfehler,"@de .
+
+<stdInhalt/afb3fb83-45d4-49ff-a50d-2a808562f67a/> a skos:Concept ;
+    skos:broader <stdInhalt/39b7229b-29af-4813-bc02-e4a40c8943ea/> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.3" ;
+    skos:prefLabel "lösen Sachaufgaben zu funktionalen Zusammenhängen (z. B. Proportionalität)."@de .
+
+<stdInhalt/b1f62cf3-18ec-42fa-94bf-cd78e4a36bf0/> a skos:Concept ;
+    skos:broader <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.5" ;
+    skos:prefLabel "fertigen Zeichnungen geometrischer Figuren mit und ohne Hilfsmittel an, auch unter Nutzung digitaler Werkzeuge."@de .
+
+<stdInhalt/b3893828-49bc-4314-a4ac-15202b91aa23/> a skos:Concept ;
+    skos:broader <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.2" ;
+    skos:prefLabel "erkennen Körper und ebene Figuren in der Umwelt wieder,"@de .
+
+<stdInhalt/bfb7ed11-3f7f-4378-b281-efcb9d7d997a/> a skos:Concept ;
+    skos:broader <stdInhalt/044c241b-9fb7-410b-ac2c-f77ee478ac96/> ;
+    skos:inScheme <> ;
+    skos:notation "5.2.2" ;
+    skos:prefLabel "schätzen Chancen für das Eintreten von Ereignissen bei alltäglichen Phänomenen oder einfachen Zufallsexperimenten ein und vergleichen (z. B. ist wahrscheinlicher als, hat größere Chancen als) diese datenbasiert."@de .
+
+<stdInhalt/c8ddc552-3c52-4fba-8890-8f669653c64b/> a skos:Concept ;
+    skos:broader <stdInhalt/5f008894-e92c-488f-a12e-8d93aa6798f2/> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.2" ;
+    skos:prefLabel "erkennen und beschreiben Strukturen in geometrischen und arithmetischen Mustern (z. B. Zahlenfolgen, Pentominos) und nutzen diese in mathematischen Kontexten (z. B. Verschlüsselungen),"@de .
+
+<stdInhalt/ca62d9c5-93ea-4d10-a0f7-1995f5ebf33d/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.3" ;
+    skos:prefLabel "übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million,"@de .
+
+<stdInhalt/d29f5bfa-2b4a-414a-9a2c-8a3578605f29/> a skos:Concept ;
+    skos:broader <stdInhalt/36b7bc3f-226a-423b-8b6c-1c80013d6263/> ;
+    skos:inScheme <> ;
+    skos:notation "4.1.1" ;
+    skos:prefLabel "orientieren sich im Raum (z. B. Wege, Pläne, Ansichten),"@de .
+
+<stdInhalt/d90064d6-17f2-41c9-9aad-61cd95471243/> a skos:Concept ;
+    skos:broader <stdInhalt/09bccf59-5b35-4976-adf8-37827ba1b0c2/> ;
+    skos:inScheme <> ;
+    skos:notation "4.3.2" ;
+    skos:prefLabel "erkennen und beschreiben Eigenschaften der Achsensymmetrie und setzen diese mit der Achsenspiegelung in Beziehung,"@de .
+
+<stdInhalt/d98ec466-f9e0-40bd-a61c-e319041c8a17/> a skos:Concept ;
+    skos:broader <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.4" ;
+    skos:prefLabel "untersuchen und vergleichen ebene Figuren und Körper untersuchen und vergleichen (ebene Figuren auch hinsichtlich des Umfangs und Flächeninhalts, Körper auch hinsichtlich des Rauminhalts),"@de .
+
+<stdInhalt/d9a06b1b-ef4b-45f1-8fa9-e8c10834fe97/> a skos:Concept ;
+    skos:broader <stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> ;
+    skos:inScheme <> ;
+    skos:notation "5.1.4" ;
+    skos:prefLabel "lösen einfache kombinatorische Fragestellungen durch systematisches Vorgehen (z. B. systematisches Probieren) oder mit Hilfe von heuristischen Hilfsmitteln (z. B. Skizze, Baumdiagramm, Tabelle)."@de .
+
+<stdInhalt/e3582d60-29b4-44b4-aae3-dc062382ba44/> a skos:Concept ;
+    skos:broader <stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> ;
+    skos:inScheme <> ;
+    skos:notation "5.1.3" ;
+    skos:prefLabel "interpretieren  Darstellungen von Daten und reflektieren diese kritisch, "@de .
+
+<stdInhalt/f436c3a0-ac1c-4f21-bc37-8e87d4b1992e/> a skos:Concept ;
+    skos:broader <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2.3" ;
+    skos:prefLabel "stellen Modelle von Körpern (Vollmodelle, Flächenmodelle, Kantenmodelle) und ebenen Figuren her und untersuchen (z. B. bauen, legen, zerlegen, zusammenfügen, ausschneiden, falten) diese, auch unter Nutzung digitaler Werkzeuge,"@de .
+
+<stdInhalt/f87566a6-60c3-40b3-ad59-740587516ed0/> a skos:Concept ;
+    skos:broader <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.1" ;
+    skos:prefLabel "verfügen über ein Operationsverständnis zu den vier Grundrechenarten und erkennen und nutzen die Zusammenhänge zwischen den Operationen,"@de .
+
+<stdInhalt/ff2742cb-6652-4d05-add0-8ebbe6e82b10/> a skos:Concept ;
+    skos:broader <stdInhalt/4b8c3eeb-2d7c-4004-96ab-1a129d1f1202/> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.1" ;
+    skos:prefLabel "verstehen und nutzen (u. a. Flächeninhalte durch Auslegen mit Einheitsquadraten, Rauminhalte durch Messen mit Einheitswürfeln) das Grundprinzip des Messens (nicht-standardisierte und standardisierte Einheitsmaße auswählen, wiederholt nutzen und ggf. in Beziehung zu Untereinheiten setzen),"@de .
+
+<stdProzess/020486de-753a-4069-9079-899222ba10f5/> a skos:Concept ;
+    skos:broader <stdProzess/afbc8d3c-4da3-42ac-a8eb-80000efa0c15/> ;
+    skos:inScheme <> ;
+    skos:notation "3.2" ;
+    skos:prefLabel "entwickeln Lösungsstrategien (z. B. systematisches Probieren, Analogien nutzen), wählen heuristische Hilfsmittel aus und nutzen diese (z. B. Tabellen), "@de .
+
+<stdProzess/13e4cccb-99ea-4f8e-988e-1fd804231069/> a skos:Concept ;
+    skos:broader <stdProzess/878fba1e-cf7c-4887-82eb-47e6f12cc6bf/> ;
+    skos:inScheme <> ;
+    skos:notation "5.2" ;
+    skos:prefLabel "übertragen eine Darstellungsform in eine andere,"@de .
+
+<stdProzess/167cfa6e-8ae2-448e-9d4f-7c3dfa137b22/> a skos:Concept ;
+    skos:broader <stdProzess/f176ca68-3957-4756-b083-9e6ccec92cfd/> ;
+    skos:inScheme <> ;
+    skos:notation "2.3" ;
+    skos:prefLabel "vollziehen Lösungen und Lösungswege anderer nach, hinterfragen und entwickeln diese gemeinsam weiter."@de .
+
+<stdProzess/404d856b-4f3a-43e9-978c-fe1c3ee36865/> a skos:Concept ;
+    skos:broader <stdProzess/878fba1e-cf7c-4887-82eb-47e6f12cc6bf/> ;
+    skos:inScheme <> ;
+    skos:notation "5.3" ;
+    skos:prefLabel "vergleichen Darstellungsformen miteinander und bewerten diese."@de .
+
+<stdProzess/45e46ea4-07bb-49b8-8df1-7aca61764b92/> a skos:Concept ;
+    skos:broader <stdProzess/d008b959-0052-4109-8103-6594d0e7058d/> ;
+    skos:inScheme <> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "hinterfragen mathematische Aussagen und prüfen diese auf Korrektheit, "@de .
+
+<stdProzess/5528511b-e65f-40d6-af37-6134fbc58a05/> a skos:Concept ;
+    skos:broader <stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/> ;
+    skos:inScheme <> ;
+    skos:notation "6.1" ;
+    skos:prefLabel "übersetzen symbolische und formale Sprache in Alltagssprache und umgekehrt, "@de .
+
+<stdProzess/552874e4-9d06-4837-a254-95c26f36bd69/> a skos:Concept ;
+    skos:broader <stdProzess/afbc8d3c-4da3-42ac-a8eb-80000efa0c15/> ;
+    skos:inScheme <> ;
+    skos:notation "3.1" ;
+    skos:prefLabel "entwickeln Lösungsideen zu Aufgaben, zu denen bislang keine Lösungsroutinen bekannt sind,"@de .
+
+<stdProzess/651c1830-9222-46cf-b3f9-904835219f1c/> a skos:Concept ;
+    skos:broader <stdProzess/878fba1e-cf7c-4887-82eb-47e6f12cc6bf/> ;
+    skos:inScheme <> ;
+    skos:notation "5.1" ;
+    skos:prefLabel "wählen geeignete Darstellungsformen für das Bearbeiten mathematischer Fragestellungen aus und nutzen und entwickeln diese,"@de .
+
+<stdProzess/66827b13-fbb8-4231-9581-ab7ba2aec13e/> a skos:Concept ;
+    skos:broader <stdProzess/f176ca68-3957-4756-b083-9e6ccec92cfd/> ;
+    skos:inScheme <> ;
+    skos:notation "2.1" ;
+    skos:prefLabel "beschreiben und erklären (auch unter Nutzung geeigneter Medien) Überlegungen zu mathematischen Sachverhalten, Lösungswege und Ergebnisse adressatengerecht, "@de .
+
+<stdProzess/776211b6-966b-4a2e-827b-dbc46fa873ac/> a skos:Concept ;
+    skos:broader <stdProzess/afbc8d3c-4da3-42ac-a8eb-80000efa0c15/> ;
+    skos:inScheme <> ;
+    skos:notation "3.3" ;
+    skos:prefLabel "überdenken Vorgehensweisen und passen diese gegebenenfalls an."@de .
+
+<stdProzess/7c4a4873-6a1c-4a24-af9a-3dd5be089e38/> a skos:Concept ;
+    skos:broader <stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/> ;
+    skos:inScheme <> ;
+    skos:notation "6.2" ;
+    skos:prefLabel "verwenden mathematische Fachbegriffe und Zeichen sachgerecht,"@de .
+
+<stdProzess/85628193-239d-42ac-9152-63f6700b7904/> a skos:Concept ;
+    skos:broader <stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/> ;
+    skos:inScheme <> ;
+    skos:notation "6.4" ;
+    skos:prefLabel "setzen mathematische Werkzeuge (z. B. Zeichenwerkzeuge, digitale Werkzeuge) sachgerecht ein."@de .
+
+<stdProzess/94d6f80c-33cd-42c5-bfbe-2b02211f0a62/> a skos:Concept ;
+    skos:broader <stdProzess/33871267-a491-42b3-b617-4c7e1e0d9c42/> ;
+    skos:inScheme <> ;
+    skos:notation "4.2" ;
+    skos:prefLabel "übersetzen Sachprobleme in die Sprache der Mathematik und prüfen und interpretieren die mathematische Lösung in Bezug auf die Ausgangssituation,"@de .
+
+<stdProzess/9864c93a-e5b3-4bc9-94bc-efaa1fc1d096/> a skos:Concept ;
+    skos:broader <stdProzess/33871267-a491-42b3-b617-4c7e1e0d9c42/> ;
+    skos:inScheme <> ;
+    skos:notation "4.1" ;
+    skos:prefLabel "entnehmen die für die mathematische Bearbeitung einer Fragestellung relevanten Informationen u. a. aus Texten, Darstellungen, der Lebenswirklichkeit,"@de .
+
+<stdProzess/995d888d-ebe0-4463-8cd7-a37c2c4738ed/> a skos:Concept ;
+    skos:broader <stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/> ;
+    skos:inScheme <> ;
+    skos:notation "6.3" ;
+    skos:prefLabel "verwenden mathematische Objekte (z. B. Zahldarstellungen, Terme, Ecken, Kanten, Tabellen, Diagramme) bei der Bearbeitung mathematischer Aufgaben- und Problemstellungen sicher und flexibel,"@de .
+
+<stdProzess/a6b42df5-c6cb-4e70-b792-74e52ddc5931/> a skos:Concept ;
+    skos:broader <stdProzess/d008b959-0052-4109-8103-6594d0e7058d/> ;
+    skos:inScheme <> ;
+    skos:notation "1.2" ;
+    skos:prefLabel "stellen Vermutungen zu mathematischen Zusammenhängen auf, "@de .
+
+<stdProzess/b3547c64-10a7-4923-9472-5a79590c0446/> a skos:Concept ;
+    skos:broader <stdProzess/33871267-a491-42b3-b617-4c7e1e0d9c42/> ;
+    skos:inScheme <> ;
+    skos:notation "4.3" ;
+    skos:prefLabel "formulieren zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben."@de .
+
+<stdProzess/c81b5229-d76c-4f69-a761-8bf789039d49/> a skos:Concept ;
+    skos:broader <stdProzess/d008b959-0052-4109-8103-6594d0e7058d/> ;
+    skos:inScheme <> ;
+    skos:notation "1.3" ;
+    skos:prefLabel "formulieren Begründungen und vollziehen Begründungen anderer nach."@de .
+
+<stdProzess/da57f472-1d65-4500-888f-f4af9c66f0d9/> a skos:Concept ;
+    skos:broader <stdProzess/f176ca68-3957-4756-b083-9e6ccec92cfd/> ;
+    skos:inScheme <> ;
+    skos:notation "2.2" ;
+    skos:prefLabel "erläutern mathematische Zusammenhänge,"@de .
+
+<stdInhalt/044c241b-9fb7-410b-ac2c-f77ee478ac96/> a skos:Concept ;
+    skos:broader <stdInhalt/44dd2067-e2c5-4e82-b0f1-a4a2b8f9a903/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/606f1cde-049b-41da-8cac-d7af18133c8f/>,
+        <stdInhalt/bfb7ed11-3f7f-4378-b281-efcb9d7d997a/> ;
+    skos:notation "5.2" ;
+    skos:prefLabel "Ereignisse bei Zufallsexperimenten untersuchen"@de .
+
+<stdInhalt/44dd2067-e2c5-4e82-b0f1-a4a2b8f9a903/> a skos:Concept ;
+    skos:broader <stdInhalt/> ;
+    skos:definition "Diese Leitidee umfasst die Erfassung, Ermittlung, systematische Betrachtung und Interpretation von Daten sowie die datenbasierte Erkundung von Zufallserscheinungen im Alltag und von Experimenten. Daten aus unterschiedlichen Größenbereichen und Sachzusammenhängen sind die Grundlage für eine systematische Betrachtung von Ereignissen und deren Auftreten in der Lebenswirklichkeit. Die quantitative Ermittlung von Häufigkeiten (Wie oft?) spielt hierbei eine zentrale Rolle. Häufigkeiten stehen wiederum in engem Zusammenhang mit kombinatorischen Überlegungen (Wie viele Möglichkeiten?) und der Einschätzung dazu, wie wahrscheinlich es sein könnte, dass ein Ereignis eintritt (Wie viele Möglichkeiten für ein Ereignis im Vergleich zu einem anderen? und Schlussfolgerungen daraus: Wie sind die Gewinnchancen?). Hierbei stellt die kritische Reflexion von Darstellungen eine Voraussetzung für einen mündigen Umgang mit Daten dar."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/044c241b-9fb7-410b-ac2c-f77ee478ac96/>,
+        <stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> ;
+    skos:notation "5" ;
+    skos:prefLabel "Leitidee Daten und Zufall"@de .
+
+<stdInhalt/6af546ec-cad0-4c1f-8d11-de6e42117441/> a skos:Concept ;
+    skos:broader <stdInhalt/> ;
+    skos:definition "Die Leitidee zielt in besonderer Weise auf die fachlich fundierte Erkundung von mathematischen Beziehungen und Gesetzmäßigkeiten zwischen Zahlen, Formen und Größen sowie deren Darstellungen und Eigenschaften. Ein Muster gleicht dabei eher einem Phänomen, in dem man eine Struktur – den Kern eines mathematischen Beziehungsgefüges – erkennen kann. Bei der Auseinandersetzung mit mathematischen Mustern und Darstellungen werden mathematisch relevante Strukturen (z. B. funktionale Beziehungen, Sortierungen, Ordnungen) erfasst und beschrieben, die dann wiederum in verschiedenen mathematischen Kontexten genutzt werden können."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/39b7229b-29af-4813-bc02-e4a40c8943ea/>,
+        <stdInhalt/5f008894-e92c-488f-a12e-8d93aa6798f2/> ;
+    skos:notation "3" ;
+    skos:prefLabel "Leitidee Muster, Strukturen und funktionaler Zusammenhang"@de .
+
+<stdInhalt/fa20b358-ece9-40da-8148-923a3c2f03b7/> a skos:Concept ;
+    skos:broader <stdInhalt/1ae559c2-ab43-443a-945a-d5fc2cfd105d/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/357d2290-acce-4d9c-9f4d-b79475a2bd15/>,
+        <stdInhalt/83687d3c-e424-40da-a118-992609481f23/> ;
+    skos:notation "1.3" ;
+    skos:prefLabel "Rechenoperationen in Kontexten anwenden"@de .
+
+<ab/> a skos:Concept ;
+    skos:definition "Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:"@de ;
+    skos:narrower <ab/39d95625-6880-4f68-b5c0-18229bfc8444/>,
+        <ab/4329839e-8aa2-4bc3-883d-6f0006adb75b/>,
+        <ab/4b87bee4-3bf2-44b0-9ffb-b50a393a71b7/> ;
+    skos:prefLabel "Anforderungsbereiche"@de ;
+    skos:topConceptOf <> .
+
+<stdInhalt/09bccf59-5b35-4976-adf8-37827ba1b0c2/> a skos:Concept ;
+    skos:broader <stdInhalt/8ac18bb7-a9dc-4357-af29-3193ac4ed701/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/58a48246-b4ed-44e6-8799-076297ae4898/>,
+        <stdInhalt/609b3c77-c7f7-44bb-ad78-e5890d6b67ed/>,
+        <stdInhalt/d90064d6-17f2-41c9-9aad-61cd95471243/> ;
+    skos:notation "4.3" ;
+    skos:prefLabel "Geometrische Abbildungen erkennen, benennen und darstellen"@de .
+
+<stdInhalt/1ae559c2-ab43-443a-945a-d5fc2cfd105d/> a skos:Concept ;
+    skos:broader <stdInhalt/> ;
+    skos:definition "Diese Leitidee umfasst den Aufbau von und den verständnisorientierten Umgang mit Vorstellungen zu Zahlen und Operationen sowie deren Beziehungen zueinander ebenso wie das sichere Addieren, Subtrahieren, Multiplizieren und Dividieren unter sinntragender und flexibler Nutzung von Rechenstrategien, Rechengesetzen und Kontrollverfahren. Dazu gehört auch das sichere Verständnis der für die Primarstufe zentralen schriftlichen Algorithmen wie auch das sachgerechte Rechnen in und mit Kontexten."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/ca09c5a2-9539-4264-b9f8-ecd7f1c7fb86/>,
+        <stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/>,
+        <stdInhalt/fa20b358-ece9-40da-8148-923a3c2f03b7/> ;
+    skos:notation "1" ;
+    skos:prefLabel "Leitidee Zahl und Operation"@de .
+
+<stdInhalt/32377fd5-bd80-4b43-9314-df07b8eec3df/> a skos:Concept ;
+    skos:broader <stdInhalt/842a2415-e0c7-41a5-87be-0a56ba29b722/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/04ded081-5aac-4cf3-933e-ef185f0888ea/>,
+        <stdInhalt/23cf83cd-8519-40f8-aa82-4a5dbf6f6052/>,
+        <stdInhalt/896c264a-eb23-4176-ad94-e5559f94da11/> ;
+    skos:notation "2.3" ;
+    skos:prefLabel "Mit Größen in Kontexten umgehen"@de .
+
+<stdInhalt/36b7bc3f-226a-423b-8b6c-1c80013d6263/> a skos:Concept ;
+    skos:broader <stdInhalt/8ac18bb7-a9dc-4357-af29-3193ac4ed701/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/765b372c-d976-4f26-9951-a4e588be8686/>,
+        <stdInhalt/7a6b99f2-4f3a-4e8a-9388-39ea3aebb443/>,
+        <stdInhalt/d29f5bfa-2b4a-414a-9a2c-8a3578605f29/> ;
+    skos:notation "4.1" ;
+    skos:prefLabel "Über räumliches Vorstellungsvermögen verfügen"@de .
+
+<stdInhalt/39b7229b-29af-4813-bc02-e4a40c8943ea/> a skos:Concept ;
+    skos:broader <stdInhalt/6af546ec-cad0-4c1f-8d11-de6e42117441/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/9b0d7808-4ccb-493e-8509-9f8e0fab82ab/>,
+        <stdInhalt/a5ae837e-246f-4012-b5b8-5cb0f47f0bae/>,
+        <stdInhalt/afb3fb83-45d4-49ff-a50d-2a808562f67a/> ;
+    skos:notation "3.2" ;
+    skos:prefLabel "Funktionale Beziehungen erkennen, beschreiben und darstellen"@de .
+
+<stdInhalt/4b8c3eeb-2d7c-4004-96ab-1a129d1f1202/> a skos:Concept ;
+    skos:broader <stdInhalt/842a2415-e0c7-41a5-87be-0a56ba29b722/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/186e527d-019e-4ea5-b4e0-79c513f8fb69/>,
+        <stdInhalt/4f3be106-8c35-4f31-b40e-4ab298454aca/>,
+        <stdInhalt/ff2742cb-6652-4d05-add0-8ebbe6e82b10/> ;
+    skos:notation "2.2" ;
+    skos:prefLabel "Größen messen und Maßangaben bestimmen"@de .
+
+<stdInhalt/5f008894-e92c-488f-a12e-8d93aa6798f2/> a skos:Concept ;
+    skos:broader <stdInhalt/6af546ec-cad0-4c1f-8d11-de6e42117441/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/0f356e3a-b820-40e0-a085-4cc8c57ec6de/>,
+        <stdInhalt/983b335e-abf5-4567-b781-76ba39ee9059/>,
+        <stdInhalt/c8ddc552-3c52-4fba-8890-8f669653c64b/> ;
+    skos:notation "3.1" ;
+    skos:prefLabel "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"@de .
+
+<stdInhalt/842a2415-e0c7-41a5-87be-0a56ba29b722/> a skos:Concept ;
+    skos:broader <stdInhalt/> ;
+    skos:definition "Diese Leitidee fokussiert den sinnstiftenden mathematischen Umgang mit Größen basierend auf tragfähigen Größenvorstellungen. Sie umfasst den Verständniserwerb des Grundprinzips des Messens, das Bestimmen und Vergleichen von Größen und die sachadäquate Anwendung der erworbenen Kompetenzen zu Größen in Kontexten. Dabei spielen neben den in der Primarstufe bedeutsamen Größen Geldwerte, Längen, Zeitspannen und Massen weitere Größen wie Flächeninhalte und Volumina (Rauminhalte und Hohlmaße) eine Rolle."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/32377fd5-bd80-4b43-9314-df07b8eec3df/>,
+        <stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/>,
+        <stdInhalt/4b8c3eeb-2d7c-4004-96ab-1a129d1f1202/> ;
+    skos:notation "2" ;
+    skos:prefLabel "Leitidee Größen und Messen"@de .
+
+<stdInhalt/8ac18bb7-a9dc-4357-af29-3193ac4ed701/> a skos:Concept ;
+    skos:broader <stdInhalt/> ;
+    skos:definition "Diese Leitidee ist auf die Entwicklung des räumlichen Vorstellungsvermögens gerichtet und beinhaltet den Umgang mit Objekten in Ebene und Raum sowie darauf bezogene Prozesse wie das geometrische Abbilden. Konkrete Handlungserfahrungen werden vertieft, systematisch geordnet, genutzt und spiralcurricular erweitert. Übergreifend spielen dabei das Begriffsverständnis und das geometrische Zeichnen eine Rolle, indem Eigenschaften und Beziehungen in den Mittelpunkt rücken und geometrische Objekte mit geeigneten Medien (einschließlich digitaler Mathematikwerkzeuge) dargestellt werden."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/09bccf59-5b35-4976-adf8-37827ba1b0c2/>,
+        <stdInhalt/36b7bc3f-226a-423b-8b6c-1c80013d6263/>,
+        <stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> ;
+    skos:notation "4" ;
+    skos:prefLabel "Leitidee Raum und Form"@de .
+
+<stdInhalt/ca09c5a2-9539-4264-b9f8-ecd7f1c7fb86/> a skos:Concept ;
+    skos:broader <stdInhalt/1ae559c2-ab43-443a-945a-d5fc2cfd105d/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/0afc5d06-d900-4282-a6c0-00881a6df3ca/>,
+        <stdInhalt/21356eee-3ea7-453b-b3f9-58ad5450ba7a/>,
+        <stdInhalt/79aa2ee7-2e69-48da-9e87-82e0bd804d66/> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "Zahldarstellungen und Zahlbeziehungen verstehen"@de .
+
+<stdProzess/33871267-a491-42b3-b617-4c7e1e0d9c42/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Beim mathematischen Modellieren geht es um das Lösen eines Sachproblems mit Hilfe der Mathematik, das einen Bezug zur Realität der Schülerinnen und Schüler aufweist und das eine Auseinandersetzung mit dem Kontext erfordert. Von besonderer Bedeutung ist das Übersetzen zwischen Realsituationen und mathematischen Begriffen, Resultaten oder Methoden. Typische Teilschritte des Modellierens sind das Strukturieren und Vereinfachen der gegebenen Realsituation, das Übersetzen des Sachproblems in mathematische Sprache und das Interpretieren sowie Prüfen der mathematischen Ergebnisse bzw. des Modells im Hinblick auf Stimmigkeit und Angemessenheit bezogen auf die Realsituation. Das Spektrum reicht vom Erfassen mathematisch bedeutsamer Informationen im Sachkontext bis hin zum Entwickeln und Formulieren von Sachaufgaben zu mathematischen Sachverhalten."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/94d6f80c-33cd-42c5-bfbe-2b02211f0a62/>,
+        <stdProzess/9864c93a-e5b3-4bc9-94bc-efaa1fc1d096/>,
+        <stdProzess/b3547c64-10a7-4923-9472-5a79590c0446/> ;
+    skos:notation "4" ;
+    skos:prefLabel "Mathematisch modellieren"@de .
+
+<stdProzess/878fba1e-cf7c-4887-82eb-47e6f12cc6bf/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Diese Kompetenz umfasst das Auswählen von sowie das verständige Umgehen mit bildlichen, symbolischen, materiellen, verbal-sprachlichen sowie grafisch-visuellen und tabellarischen Darstellungen, die mathematische Objekte und Sachverhalte repräsentieren. Von besonderer Bedeutung ist das Vernetzen von mathematischen Darstellungen. Das Spektrum reicht von Anwenden, Interpretieren und Unterscheiden mathematisch bedeutsamer Darstellungen über das Erstellen von und Wechseln zwischen geeigneten mathematischen Darstellungen bis hin zu deren kritischen Reflexion."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/13e4cccb-99ea-4f8e-988e-1fd804231069/>,
+        <stdProzess/404d856b-4f3a-43e9-978c-fe1c3ee36865/>,
+        <stdProzess/651c1830-9222-46cf-b3f9-904835219f1c/> ;
+    skos:notation "5" ;
+    skos:prefLabel "Mathematisch darstellen "@de .
+
+<stdProzess/afbc8d3c-4da3-42ac-a8eb-80000efa0c15/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Diese Kompetenz zielt darauf, dass Schülerinnen und Schüler mathematische Aufgabenstellungen bearbeiten, die mit vorhandenen Kenntnissen und Fähigkeiten nicht routiniert gelöst werden können. Das Spektrum an Kompetenzen reicht vom Erkennen mathematischer Probleme und dem kreativen Entwickeln neuartiger Lösungsideen über das Auswählen geeigneter heuristischer Strategien und Hilfsmittel bis hin zum kritischen Reflektieren und Adaptieren der Lösungszugänge. Geeignete Heurismen in der Primarstufe sind vor allem das systematische Probieren, das Nutzen von Analogien oder das Rückwärtsarbeiten, das Erstellen von Skizzen und das Nutzen von Tabellen."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/020486de-753a-4069-9079-899222ba10f5/>,
+        <stdProzess/552874e4-9d06-4837-a254-95c26f36bd69/>,
+        <stdProzess/776211b6-966b-4a2e-827b-dbc46fa873ac/> ;
+    skos:notation "3" ;
+    skos:prefLabel "Probleme mathematisch lösen "@de .
+
+<stdProzess/d008b959-0052-4109-8103-6594d0e7058d/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Beim mathematischen Argumentieren in der Primarstufe entwickeln Schülerinnen und Schüler ein Bewusstsein für strittige Fragen zu mathematischen Gegenständen und ein Bedürfnis, diese überzeugend aufzuklären. Hierzu hinterfragen und prüfen sie Aussagen ebenso wie sie Vermutungen und Begründungen zu mathematischen Zusammenhängen aufstellen. Das Spektrum reicht dabei vom beispielgebundenen Prüfen und Widerlegen von Vermutungen bis hin zum Nachvollziehen und Entwickeln von verallgemeinernden inhaltlichanschaulichen Überlegungen zu mathematischen Zusammenhängen. "@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/45e46ea4-07bb-49b8-8df1-7aca61764b92/>,
+        <stdProzess/a6b42df5-c6cb-4e70-b792-74e52ddc5931/>,
+        <stdProzess/c81b5229-d76c-4f69-a761-8bf789039d49/> ;
+    skos:notation "1" ;
+    skos:prefLabel "Mathematisch argumentieren"@de .
+
+<stdProzess/f176ca68-3957-4756-b083-9e6ccec92cfd/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Beim mathematischen Kommunizieren verständigen sich Schülerinnen und Schüler mündlich oder auch schriftlich und mit Hilfe geeigneter Medien über mathematische Bearbeitungen, treffen darüber fachliche Absprachen und gehen inhaltlich aufeinander ein. Das Spektrum reicht vom Präsentieren, Beschreiben und strukturierten Darlegen eigener mathematischer Überlegungen bis hin zum verständlichen Erläutern von Zusammenhängen zwischen mathematischen Objekten und zum Nachvollziehen und kritischen Hinterfragen von Erläuterungen und Erklärungen anderer. "@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/167cfa6e-8ae2-448e-9d4f-7c3dfa137b22/>,
+        <stdProzess/66827b13-fbb8-4231-9581-ab7ba2aec13e/>,
+        <stdProzess/da57f472-1d65-4500-888f-f4af9c66f0d9/> ;
+    skos:notation "2" ;
+    skos:prefLabel "Mathematisch kommunizieren "@de .
+
+<stdInhalt/2f1dcb6a-ed71-4971-b8c8-e523301ce569/> a skos:Concept ;
+    skos:broader <stdInhalt/44dd2067-e2c5-4e82-b0f1-a4a2b8f9a903/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/41e8f5b7-cc8d-4dc2-a680-6d123f5c8f0d/>,
+        <stdInhalt/51f74f63-156e-4432-869d-19433fd2cfbc/>,
+        <stdInhalt/d9a06b1b-ef4b-45f1-8fa9-e8c10834fe97/>,
+        <stdInhalt/e3582d60-29b4-44b4-aae3-dc062382ba44/> ;
+    skos:notation "5.1" ;
+    skos:prefLabel "Mit Daten umgehen"@de .
+
+<stdInhalt/43889e9e-0e93-463a-8b85-8c9f7a770679/> a skos:Concept ;
+    skos:broader <stdInhalt/842a2415-e0c7-41a5-87be-0a56ba29b722/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/18b1bc56-c458-459b-bc46-d87317a02209/>,
+        <stdInhalt/1b0445bf-881a-4acb-9ab6-6c2ab156423e/>,
+        <stdInhalt/7f004b17-0ff3-4c9e-a283-0e5b3ad29023/>,
+        <stdInhalt/83fdd772-04dc-4b33-9ef7-cb743db22af7/> ;
+    skos:notation "2.1" ;
+    skos:prefLabel "Über Größenvorstellungen verfügen"@de .
+
+<stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/> a skos:Concept ;
+    skos:broader <stdProzess/> ;
+    skos:definition "Diese Kompetenz beinhaltet den fachlich sicheren Umgang mit den im Mathematikunterricht der Primarstufe relevanten mathematischen Objekten (z. B. arithmetisch: u. a. Zahlen, Symbole, Terme, Gleichungen; geometrisch: u. a. Ecken, Kanten, Formen, Winkel, Symmetrieachsen) und den adäquaten Einsatz mathematischer Werkzeuge (u. a. Lineal, Zirkel, Taschenrechner, Apps). Hierzu verknüpfen die Schülerinnen und Schüler alltagsgebundene Sprechweisen mit symbolischen und formalen Ausdrucksweisen und nutzen diese fachlich angemessen. Das Spektrum reicht vom sicheren und adressatengerechten Verwenden mathematisch geeigneter Begriffe und Zeichen bis hin zum flexiblen und sachgerechten Umgang mit mathematischen Objekten und Werkzeugen. Diese Kompetenz beinhaltet auch Fakten- und Regelwissen für ein zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen."@de ;
+    skos:inScheme <> ;
+    skos:narrower <stdProzess/5528511b-e65f-40d6-af37-6134fbc58a05/>,
+        <stdProzess/7c4a4873-6a1c-4a24-af9a-3dd5be089e38/>,
+        <stdProzess/85628193-239d-42ac-9152-63f6700b7904/>,
+        <stdProzess/995d888d-ebe0-4463-8cd7-a37c2c4738ed/> ;
+    skos:notation "6" ;
+    skos:prefLabel "Mit mathematischen Objekten und Werkzeugen arbeiten"@de .
+
+<stdInhalt/> a skos:Concept ;
+    skos:definition "Die inhaltsbezogenen Kompetenzen orientieren sich an fünf mathematischen Leitideen, die für den gesamten Mathematikunterricht – für den Primarbereich und für das weiterführende Lernen – bedeutsam sind und einen stringenten Aufbau der Inhalte über die Schulstufen hinweg ermöglichen.Abbildung 3: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen mit Fokussierung auf die Inhaltsbezogenen Kompetenzen. Die Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ nimmt eine besondere Rolle unter den Leitideen ein. Sie greift den Wesenskern der Mathematik auf, grundlegende Regel- und Gesetzmäßigkeiten inhaltlich zu erfassen, zu erklären und zur Problemlösung zu nutzen. Zugleich hat das Erkennen von Mustern, Strukturen und funktionalen Zusammenhängen eine übergeordnete Bedeutung für die Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“, denn Mathematik wird in der aktiven Erkundung von vielschichtigen Beziehungen in unterschiedlichen inhaltsbezogenen Bereichen gelernt. Muster, Strukturen und funktionale Zusammenhänge stehen deshalb beim Erwerb aller inhaltsbezogenen Kompetenzen regelmäßig im Mittelpunkt der Auseinandersetzung mit den Inhalten. Innerhalb der Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“ werden deshalb inhaltsbezogene Kompetenzen mit einem engen Bezug zur Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ im Folgenden explizit ausgewiesen (gelbe Schattierung). Am Ende von Jahrgangsstufe 4 sollen die Schülerinnen und Schüler über folgende inhaltsbezogene mathematische Kompetenzen verfügen (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"@de ;
+    skos:narrower <stdInhalt/1ae559c2-ab43-443a-945a-d5fc2cfd105d/>,
+        <stdInhalt/44dd2067-e2c5-4e82-b0f1-a4a2b8f9a903/>,
+        <stdInhalt/6af546ec-cad0-4c1f-8d11-de6e42117441/>,
+        <stdInhalt/842a2415-e0c7-41a5-87be-0a56ba29b722/>,
+        <stdInhalt/8ac18bb7-a9dc-4357-af29-3193ac4ed701/> ;
+    skos:prefLabel "Inhaltsbezogene Kompetenzen"@de ;
+    skos:topConceptOf <> .
+
+<stdInhalt/70567af8-38fb-4dd1-b39a-6f29b850ff44/> a skos:Concept ;
+    skos:broader <stdInhalt/8ac18bb7-a9dc-4357-af29-3193ac4ed701/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/39831c5a-b082-411a-8628-27f06b46795a/>,
+        <stdInhalt/b1f62cf3-18ec-42fa-94bf-cd78e4a36bf0/>,
+        <stdInhalt/b3893828-49bc-4314-a4ac-15202b91aa23/>,
+        <stdInhalt/d98ec466-f9e0-40bd-a61c-e319041c8a17/>,
+        <stdInhalt/f436c3a0-ac1c-4f21-bc37-8e87d4b1992e/> ;
+    skos:notation "4.2" ;
+    skos:prefLabel "Geometrische Figuren erkennen, benennen und darstellen"@de .
+
+<stdProzess/> a skos:Concept ;
+    skos:definition "Prozessbezogene Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise – in der tätigen Auseinandersetzung – werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden sechs prozessbezogenen Kompetenzen.Abbildung 2: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen; Diese lassen sich für Schülerinnen und Schüler am Ende von Jahrgangsstufe 4 wie folgt konkretisieren (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"@de ;
+    skos:narrower <stdProzess/33871267-a491-42b3-b617-4c7e1e0d9c42/>,
+        <stdProzess/878fba1e-cf7c-4887-82eb-47e6f12cc6bf/>,
+        <stdProzess/9176ef9e-fb26-4cff-84e7-ad7ef07ddc7c/>,
+        <stdProzess/afbc8d3c-4da3-42ac-a8eb-80000efa0c15/>,
+        <stdProzess/d008b959-0052-4109-8103-6594d0e7058d/>,
+        <stdProzess/f176ca68-3957-4756-b083-9e6ccec92cfd/> ;
+    skos:prefLabel "Prozessbezogene Kompetenzen"@de ;
+    skos:topConceptOf <> .
+
+<stdInhalt/e5fd2b14-7939-4556-a3cc-485220a5c5ea/> a skos:Concept ;
+    skos:broader <stdInhalt/1ae559c2-ab43-443a-945a-d5fc2cfd105d/> ;
+    skos:inScheme <> ;
+    skos:narrower <stdInhalt/32808a94-f762-42bc-96d9-c408e8e29b6b/>,
+        <stdInhalt/3554aca8-a885-4643-8a27-cce81872ad71/>,
+        <stdInhalt/5196ffc1-f44c-43d4-85d0-fa0d82da0cab/>,
+        <stdInhalt/8ba76fdc-89dc-485a-b621-a426224c5f5f/>,
+        <stdInhalt/972a4b71-9ff5-42a3-92a4-aa047ce0406d/>,
+        <stdInhalt/ab55f51d-2394-43d8-b119-bf779abbcd8e/>,
+        <stdInhalt/ca62d9c5-93ea-4d10-a0f7-1995f5ebf33d/>,
+        <stdInhalt/f87566a6-60c3-40b3-ad59-740587516ed0/> ;
+    skos:notation "1.2" ;
+    skos:prefLabel "Rechenoperationen verstehen und beherrschen"@de .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:title "Mathematik Primar"@de ;
+    skos:hasTopConcept <ab/>,
+        <stdInhalt/>,
+        <stdProzess/> .
+
