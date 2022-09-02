@@ -2,37 +2,39 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<51eb0c81-1e89-468e-abb4-d2dca512a1eb> a skos:Concept ;
-    skos:broader <ab/> ;
+<964c0f5f-ef01-4f9d-bd7c-35388637b39d> a skos:Concept ;
+    skos:broader <> ;
     skos:definition "Reproduzieren. Wiedergabe von Grundwissen, Ausführen von Routinetätigkeiten und direkte Anwendung von grundlegenden Begriffen und Verfahren"@de ;
     skos:inScheme <> ;
     skos:notation "1" ;
-    skos:prefLabel "Anforderungsbereich I"@de .
+    skos:prefLabel "Anforderungsbereich I"@de ;
+    skos:topConceptOf <> .
 
-<623be84e-ad07-453a-a377-dfa6d8f0a30d> a skos:Concept ;
-    skos:broader <ab/> ;
+<ade34c1a-0e4d-4b6d-8836-2434f233d46a> a skos:Concept ;
+    skos:broader <> ;
     skos:definition "Zusammenhänge herstellen. Erkennen mathematischer Zusammenhänge und Verknüpfen von Kenntnissen, Fertigkeiten und Fähigkeiten bei der Bearbeitung mathematischer Aufgabenstellungen"@de ;
     skos:inScheme <> ;
     skos:notation "2" ;
-    skos:prefLabel "Anforderungsbereich II"@de .
+    skos:prefLabel "Anforderungsbereich II"@de ;
+    skos:topConceptOf <> .
 
-<ea9f97be-2c69-4466-94d3-35a98ff0d5da> a skos:Concept ;
-    skos:broader <ab/> ;
+<d70fe394-add6-4760-a80a-173d69001e4f> a skos:Concept ;
+    skos:broader <> ;
     skos:definition "Verallgemeinern und Reflektieren. Übertragen von Erkenntnissen auf unbekannte Fragestellungen sowie Entwickeln und Reflektieren von Strategien, Begründungen und Folgerungen"@de ;
     skos:inScheme <> ;
     skos:notation "3" ;
-    skos:prefLabel "Anforderungsbereich III"@de .
+    skos:prefLabel "Anforderungsbereich III"@de ;
+    skos:topConceptOf <> .
 
 <> a skos:ConceptScheme ;
     dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:"@de ;
     dct:title "Mathematik Primar_Anforderungsbereiche"@de ;
-    skos:hasTopConcept <ab/> .
-
-<ab/> a skos:Concept ;
-    skos:definition "Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:"@de ;
-    skos:narrower <51eb0c81-1e89-468e-abb4-d2dca512a1eb>,
-        <623be84e-ad07-453a-a377-dfa6d8f0a30d>,
-        <ea9f97be-2c69-4466-94d3-35a98ff0d5da> ;
-    skos:prefLabel "Anforderungsbereiche"@de ;
-    skos:topConceptOf <> .
+    skos:hasTopConcept <964c0f5f-ef01-4f9d-bd7c-35388637b39d>,
+        <ade34c1a-0e4d-4b6d-8836-2434f233d46a>,
+        <d70fe394-add6-4760-a80a-173d69001e4f> ;
+    skos:narrower <964c0f5f-ef01-4f9d-bd7c-35388637b39d>,
+        <ade34c1a-0e4d-4b6d-8836-2434f233d46a>,
+        <d70fe394-add6-4760-a80a-173d69001e4f> ;
+    skos:prefLabel "Anforderungsbereiche"@de .
 
