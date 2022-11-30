@@ -470,4 +470,4 @@
         <e37317dc-8999-4b3d-b3fd-9703c4511fdd>,
         <fd3e0d10-6673-46ac-bf2a-ea589f91c484> ;
     skos:prefLabel "Inhaltsbezogene Kompetenzen"@de .
-
+  
